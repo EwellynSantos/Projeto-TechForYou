@@ -64,6 +64,13 @@ body{
     color: #fff2e7;
 }
 
+.conteudo-principal-escrito-autor{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #fff2e7;
+}
+
 .conteudo-principal-escrito-subtitulo{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
@@ -110,11 +117,21 @@ body{
     margin-bottom: 16px;
 }
 
+.video-complementar{
+    width: 320;
+    height: 240;
+
+}
+
 .conteudo-secundario-paragrafo{
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     font: size 18px;
     color: #ECD6C4;
+}
+
+.conteudo-secundario-imagem{
+    width: 300px;
 }
 
 .rodape{

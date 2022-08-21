@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Sarala&display=swap');
 
 *{
-    margin: 0;
+    margin: 10px;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -9,7 +9,7 @@
 
 body{
     font-size: 100%;
-    background-color: #929292;
+    background-color: #2279a5;
 }
 
 .cabecalho{
@@ -21,7 +21,7 @@ body{
 }
 
 .cabecalho-imagem{
-    height: 72px;
+    height: 100px;
 }
 
 .cabecalho-menu{
@@ -35,6 +35,18 @@ body{
     font-weight: 400;
     font-size: 18px;
 
+}
+.formulario-contato-titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #fff2e7;
+}
+.formulario-contato{
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .conteudo{
@@ -54,6 +66,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 32px;
+    color:#fff2e7;
 
 }
 

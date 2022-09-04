@@ -9,7 +9,8 @@
 
 body{
     font-size: 100%;
-    background-color: #2279a5;
+    background-image: url(assets/background1.png);
+    background-attachment: fixed;
 }
 
 .cabecalho{
@@ -31,22 +32,38 @@ body{
 
 .cabecalho-menu-item{
     font-family: 'Sarala', sans-serif;
-    color: #fff2e7;
+    color: #fffcf9;
     font-weight: 400;
     font-size: 18px;
 
 }
+
+.formulario-conteudo{
+    margin-block: 80px;
+    border-width: 2px;
+    border-color: #fffcf9;
+}
+
 .formulario-contato-titulo{
+    margin-left: auto;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 25px;
-    color: #fff2e7;
+    color: #fffcf9;
 }
 .formulario-contato{
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Sarala', sans-serif;
     color: #fff2e7;
     font-weight: 400;
     font-size: 18px;
+}
+
+.formulario-tabela{
+    margin: 100px;
+    border-color: #fff2e7;
+    color: #fff2e7;
 }
 
 .conteudo{

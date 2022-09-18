@@ -38,6 +38,21 @@ body{
 
 }
 
+#imagem-instagram{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    float: right;
+}
+
+#imagem-linkedin{
+    clear: both;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    float: right;
+}
+
 .formulario-conteudo{
     margin-block: 80px;
     border-width: 2px;
